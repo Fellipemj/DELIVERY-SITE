@@ -1,0 +1,147 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden; 
+    font-family: Arial, sans-serif;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 79px;
+    background-color: #E32600;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+}
+
+header img {
+    max-height: 100%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.nav-links a:hover {
+    background-color: #b30000;
+    border-radius: 5px;
+    transform: translateY(-2px);
+}
+
+.nav-links a:active {
+    background-color: #7a0000;
+    transform: translateY(0);
+}
+
+main {
+    padding: 20px;
+}
+
+.pedidomenu {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.pedidomenu_2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.search-container {
+    max-width: 600px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px 40px 10px 20px;
+    border: 2px solid #007bff;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.search-input:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+.search-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #007bff;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.pedidomenu_3 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.macarraos {
+    padding-right: 10px;
+    font-size: 20px;
+    word-spacing: 20px;
+    opacity: 0.6;
+}
+
+.imagem-noodle {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #b30000;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background-color: #900000;
+    transform: translateY(-2px);
+}
+
+.button:active {
+    background-color: #7a0000;
+    transform: translateY(0);
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="carrinho.css">
+</head>
+<body>
+    <div class="carrinho-container">
+        <h1>Carrinho de Compras</h1>
+        <div class="carrinho-lista">
+            <div class="item-carrinho">
+                <img src="carbonara.png" alt="Carbonara Italiana" class="item-imagem">
+                <div class="item-info">
+                    <h2 class="item-nome">Carbonara Italiana</h2>
+                    <p class="item-descricao">Espaguete com molho cremoso, queijo e pancetta.</p>
+                    <div class="item-quantidade">
+                        <button class="btn-quantidade">-</button>
+                        <input type="number" value="1" min="1" class="input-quantidade">
+                        <button class="btn-quantidade">+</button>
+                    </div>
+                    <p class="item-preco">57,99R$</p>
+                </div>
+                <button class="btn-remover">Remover</button>
+            </div>
+
+            <div class="item-carrinho">
+                <img src="penne-1400px-capa.png" alt="Penne alla Vodka com Camarão" class="item-imagem">
+                <div class="item-info">
+                    <h2 class="item-nome">Penne alla Vodka com Camarão</h2>
+                    <p class="item-descricao">Penne com molho cremoso de vodka e camarões suculentos.</p>
+                    <div class="item-quantidade">
+                        <button class="btn-quantidade">-</button>
+                        <input type="number" value="2" min="1" class="input-quantidade">
+                        <button class="btn-quantidade">+</button>
+                    </div>
+                    <p class="item-preco">92,99R$</p>
+                </div>
+                <button class="btn-remover">Remover</button>
+            </div>
+        </div>
+
+        <div class="carrinho-resumo">
+            <h2>Resumo</h2>
+            <div class="resumo-item">
+                <span class="resumo-label">Subtotal:</span>
+                <span class="resumo-valor">250,97R$</span>
+            </div>
+            <div class="resumo-item">
+                <span class="resumo-label">Frete:</span>
+                <span class="resumo-valor">10,00R$</span>
+            </div>
+            <div class="resumo-item resumo-total">
+                <span class="resumo-label">Total:</span>
+                <span class="resumo-valor">260,97R$</span>
+            </div>
+            <button class="btn-finalizar">Finalizar Compra</button>
+        </div>
+    </div>
+</body>
+</html>
